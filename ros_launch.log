@@ -1,0 +1,1987 @@
+[INFO] [launch]: All log files can be found below /home/.ros/log/2022-11-23-16-41-09-175967-ubuntu-176617
+[INFO] [launch]: Default logging verbosity is set to INFO
+urdf_file_name : turtlebot3_burger.urdf
+[INFO] [gzserver-1]: process started with pid [176619]
+[INFO] [gzclient   -2]: process started with pid [176621]
+[INFO] [ros2-3]: process started with pid [176625]
+[INFO] [robot_state_publisher-4]: process started with pid [176627]
+[INFO] [cartographer_node-5]: process started with pid [176629]
+[INFO] [occupancy_grid_node-6]: process started with pid [176631]
+[INFO] [rviz2-7]: process started with pid [176633]
+[INFO] [controller_server-8]: process started with pid [176635]
+[INFO] [planner_server-9]: process started with pid [176637]
+[INFO] [recoveries_server-10]: process started with pid [176639]
+[INFO] [bt_navigator-11]: process started with pid [176641]
+[INFO] [waypoint_follower-12]: process started with pid [176643]
+[INFO] [lifecycle_manager-13]: process started with pid [176645]
+[INFO] [wanderer_server-14]: process started with pid [176647]
+[INFO] [discoverer_server-15]: process started with pid [176649]
+[INFO] [watchtower-16]: process started with pid [176665]
+[INFO] [manager-17]: process started with pid [176751]
+[cartographer_node-5] [INFO] [1669192869.694920785] [cartographer_ros]: I1123 16:41:09.000000 176629 configuration_file_resolver.cc:41] Found '/home/devel_ws/install/explorer_cartographer/share/explorer_cartographer/config/turtlebot3_lds_2d.lua' for 'turtlebot3_lds_2d.lua'.
+[cartographer_node-5] [INFO] [1669192869.695103752] [cartographer_ros]: I1123 16:41:09.000000 176629 configuration_file_resolver.cc:41] Found '/opt/ros/foxy/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-5] [INFO] [1669192869.695118840] [cartographer_ros]: I1123 16:41:09.000000 176629 configuration_file_resolver.cc:41] Found '/opt/ros/foxy/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-5] [INFO] [1669192869.695146172] [cartographer_ros]: I1123 16:41:09.000000 176629 configuration_file_resolver.cc:41] Found '/opt/ros/foxy/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-5] [INFO] [1669192869.695155429] [cartographer_ros]: I1123 16:41:09.000000 176629 configuration_file_resolver.cc:41] Found '/opt/ros/foxy/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-5] [INFO] [1669192869.695229229] [cartographer_ros]: I1123 16:41:09.000000 176629 configuration_file_resolver.cc:41] Found '/opt/ros/foxy/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-5] [INFO] [1669192869.695240330] [cartographer_ros]: I1123 16:41:09.000000 176629 configuration_file_resolver.cc:41] Found '/opt/ros/foxy/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-5] [INFO] [1669192869.695263123] [cartographer_ros]: I1123 16:41:09.000000 176629 configuration_file_resolver.cc:41] Found '/opt/ros/foxy/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-5] [INFO] [1669192869.695271910] [cartographer_ros]: I1123 16:41:09.000000 176629 configuration_file_resolver.cc:41] Found '/opt/ros/foxy/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-5] [INFO] [1669192869.695322526] [cartographer_ros]: I1123 16:41:09.000000 176629 configuration_file_resolver.cc:41] Found '/opt/ros/foxy/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-5] [INFO] [1669192869.695332805] [cartographer_ros]: I1123 16:41:09.000000 176629 configuration_file_resolver.cc:41] Found '/opt/ros/foxy/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-5] [INFO] [1669192869.714936345] [cartographer_ros]: I1123 16:41:09.000000 176629 submap_2d.cc:187] Added submap 1
+[cartographer_node-5] [INFO] [1669192869.714983143] [cartographer_ros]: I1123 16:41:09.000000 176629 map_builder_bridge.cc:132] Added trajectory with ID '0'.
+[controller_server-8] [INFO] [1669192869.708843876] [controller_server]: 
+[controller_server-8] 	controller_server lifecycle node launched. 
+[controller_server-8] 	Waiting on external lifecycle transitions to activate
+[controller_server-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-8] [INFO] [1669192869.710865164] [controller_server]: Creating controller server
+[planner_server-9] [INFO] [1669192869.706666211] [planner_server]: 
+[planner_server-9] 	planner_server lifecycle node launched. 
+[planner_server-9] 	Waiting on external lifecycle transitions to activate
+[planner_server-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-9] [INFO] [1669192869.707453162] [planner_server]: Creating
+[bt_navigator-11] [INFO] [1669192869.711248290] [bt_navigator]: 
+[bt_navigator-11] 	bt_navigator lifecycle node launched. 
+[bt_navigator-11] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-11] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-11] [INFO] [1669192869.711313864] [bt_navigator]: Creating
+[waypoint_follower-12] [INFO] [1669192869.707055068] [waypoint_follower]: 
+[waypoint_follower-12] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-12] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-12] [INFO] [1669192869.707140790] [waypoint_follower]: Creating
+[lifecycle_manager-13] [INFO] [1669192869.704832398] [lifecycle_manager_navigation]: Creating
+[planner_server-9] [INFO] [1669192869.719236920] [global_costmap.global_costmap]: 
+[planner_server-9] 	global_costmap lifecycle node launched. 
+[planner_server-9] 	Waiting on external lifecycle transitions to activate
+[planner_server-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[recoveries_server-10] [INFO] [1669192869.719330788] [recoveries_server]: 
+[recoveries_server-10] 	recoveries_server lifecycle node launched. 
+[recoveries_server-10] 	Waiting on external lifecycle transitions to activate
+[recoveries_server-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-9] [INFO] [1669192869.719634584] [global_costmap.global_costmap]: Creating Costmap
+[robot_state_publisher-4] [WARN] [1669192869.720365238] [robot_state_publisher]: No robot_description parameter, but command-line argument available.  Assuming argument is name of URDF file.  This backwards compatibility fallback will be removed in the future.
+[robot_state_publisher-4] Parsing robot urdf xml string.
+[robot_state_publisher-4] Link base_link had 5 children
+[robot_state_publisher-4] Link caster_back_link had 0 children
+[robot_state_publisher-4] Link imu_link had 0 children
+[robot_state_publisher-4] Link base_scan had 0 children
+[robot_state_publisher-4] Link wheel_left_link had 0 children
+[robot_state_publisher-4] Link wheel_right_link had 0 children
+[robot_state_publisher-4] [INFO] [1669192869.721910384] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-4] [INFO] [1669192869.721929090] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-4] [INFO] [1669192869.721933067] [robot_state_publisher]: got segment base_scan
+[robot_state_publisher-4] [INFO] [1669192869.721936394] [robot_state_publisher]: got segment caster_back_link
+[robot_state_publisher-4] [INFO] [1669192869.721939429] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-4] [INFO] [1669192869.721942235] [robot_state_publisher]: got segment wheel_left_link
+[robot_state_publisher-4] [INFO] [1669192869.721945110] [robot_state_publisher]: got segment wheel_right_link
+[lifecycle_manager-13] [INFO] [1669192869.722426131] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[lifecycle_manager-13] [INFO] [1669192869.729949210] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-13] [INFO] [1669192869.729989096] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-8] [INFO] [1669192869.736583496] [local_costmap.local_costmap]: 
+[controller_server-8] 	local_costmap lifecycle node launched. 
+[controller_server-8] 	Waiting on external lifecycle transitions to activate
+[controller_server-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-8] [INFO] [1669192869.736964758] [local_costmap.local_costmap]: Creating Costmap
+[controller_server-8] [INFO] [1669192869.745479365] [controller_server]: Configuring controller interface
+[controller_server-8] [INFO] [1669192869.745534098] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-8] [INFO] [1669192869.745544889] [local_costmap.local_costmap]: Configuring
+[controller_server-8] [INFO] [1669192869.752197880] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-8] [INFO] [1669192869.754793746] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-8] [INFO] [1669192869.755934537] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-8] [INFO] [1669192869.755973210] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-8] [INFO] [1669192869.756044345] [local_costmap.local_costmap]: Subscribed to Topics: pointcloud
+[controller_server-8] [INFO] [1669192869.760394664] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-8] [INFO] [1669192869.760541362] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-8] [INFO] [1669192869.760749887] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-8] [INFO] [1669192869.767252334] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-8] [INFO] [1669192869.767715561] [controller_server]: Created goal_checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-8] [INFO] [1669192869.769223257] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-8] [INFO] [1669192869.769298379] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-8] [INFO] [1669192869.780588553] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-8] [INFO] [1669192869.781453100] [controller_server]: Critic plugin initialized
+[controller_server-8] [INFO] [1669192869.781503205] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-8] [INFO] [1669192869.781539875] [controller_server]: Critic plugin initialized
+[controller_server-8] [INFO] [1669192869.781560934] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-8] [INFO] [1669192869.781583147] [controller_server]: Critic plugin initialized
+[controller_server-8] [INFO] [1669192869.781607813] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-8] [INFO] [1669192869.781676263] [controller_server]: Critic plugin initialized
+[controller_server-8] [INFO] [1669192869.781697213] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-8] [INFO] [1669192869.782121847] [controller_server]: Critic plugin initialized
+[controller_server-8] [INFO] [1669192869.782157625] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-8] [INFO] [1669192869.782188333] [controller_server]: Critic plugin initialized
+[controller_server-8] [INFO] [1669192869.782202700] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-8] [INFO] [1669192869.782230052] [controller_server]: Critic plugin initialized
+[controller_server-8] [INFO] [1669192869.782236484] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-13] [INFO] [1669192869.787964954] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-9] [INFO] [1669192869.788221029] [planner_server]: Configuring
+[planner_server-9] [INFO] [1669192869.788248290] [global_costmap.global_costmap]: Configuring
+[planner_server-9] [INFO] [1669192869.790248108] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-9] [INFO] [1669192869.792052726] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with volatile durability
+[planner_server-9] [INFO] [1669192869.793508834] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-9] [INFO] [1669192869.793522540] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-9] [INFO] [1669192869.793573146] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-9] [INFO] [1669192869.796224307] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-9] [INFO] [1669192869.796243083] [global_costmap.global_costmap]: Using plugin "voxel_layer"
+[planner_server-9] [INFO] [1669192869.796291544] [global_costmap.global_costmap]: Subscribed to Topics: pointcloud
+[planner_server-9] [INFO] [1669192869.800281612] [global_costmap.global_costmap]: Initialized plugin "voxel_layer"
+[planner_server-9] [INFO] [1669192869.800297482] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-9] [INFO] [1669192869.800681770] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-9] [INFO] [1669192869.812220836] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-9] [INFO] [1669192869.812267855] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-9] [INFO] [1669192869.819450288] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-13] [INFO] [1669192869.823775240] [lifecycle_manager_navigation]: [34m[1mConfiguring recoveries_server[0m[0m
+[recoveries_server-10] [INFO] [1669192869.824051233] [recoveries_server]: Configuring
+[recoveries_server-10] [INFO] [1669192869.827488623] [recoveries_server]: Creating recovery plugin spin of type nav2_recoveries/Spin
+[recoveries_server-10] [INFO] [1669192869.828218115] [recoveries_server]: Configuring spin
+[recoveries_server-10] [INFO] [1669192869.832446052] [recoveries_server]: Creating recovery plugin backup of type nav2_recoveries/BackUp
+[recoveries_server-10] [INFO] [1669192869.833733711] [recoveries_server]: Configuring backup
+[recoveries_server-10] [INFO] [1669192869.838341038] [recoveries_server]: Creating recovery plugin wait of type nav2_recoveries/Wait
+[recoveries_server-10] [INFO] [1669192869.838951093] [recoveries_server]: Configuring wait
+[lifecycle_manager-13] [INFO] [1669192869.842913528] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-11] [INFO] [1669192869.843193859] [bt_navigator]: Configuring
+[bt_navigator-11] [INFO] [1669192869.876848973] [bt_navigator_rclcpp_node]: Waiting for "compute_path_to_pose" action server
+[bt_navigator-11] [INFO] [1669192869.877330996] [bt_navigator_rclcpp_node]: "ComputePathToPose" BtActionNode initialized
+[bt_navigator-11] [INFO] [1669192869.879083205] [bt_navigator_rclcpp_node]: Waiting for "global_costmap/clear_entirely_global_costmap" service
+[bt_navigator-11] [INFO] [1669192869.879478584] [bt_navigator_rclcpp_node]: "ClearEntireCostmap" BtServiceNode initialized
+[bt_navigator-11] [INFO] [1669192869.887400508] [bt_navigator_rclcpp_node]: Waiting for "follow_path" action server
+[bt_navigator-11] [INFO] [1669192869.887478696] [bt_navigator_rclcpp_node]: "FollowPath" BtActionNode initialized
+[bt_navigator-11] [INFO] [1669192869.889754506] [bt_navigator_rclcpp_node]: Waiting for "local_costmap/clear_entirely_local_costmap" service
+[bt_navigator-11] [INFO] [1669192869.889812516] [bt_navigator_rclcpp_node]: "ClearEntireCostmap" BtServiceNode initialized
+[bt_navigator-11] [INFO] [1669192869.891939585] [bt_navigator_rclcpp_node]: Waiting for "local_costmap/clear_entirely_local_costmap" service
+[bt_navigator-11] [INFO] [1669192869.891994980] [bt_navigator_rclcpp_node]: "ClearEntireCostmap" BtServiceNode initialized
+[bt_navigator-11] [INFO] [1669192869.894055422] [bt_navigator_rclcpp_node]: Waiting for "global_costmap/clear_entirely_global_costmap" service
+[bt_navigator-11] [INFO] [1669192869.894114965] [bt_navigator_rclcpp_node]: "ClearEntireCostmap" BtServiceNode initialized
+[bt_navigator-11] [INFO] [1669192869.903266449] [bt_navigator_rclcpp_node]: Waiting for "spin" action server
+[bt_navigator-11] [INFO] [1669192869.903408568] [bt_navigator_rclcpp_node]: "Spin" BtActionNode initialized
+[bt_navigator-11] [INFO] [1669192869.910685942] [bt_navigator_rclcpp_node]: Waiting for "wait" action server
+[bt_navigator-11] [INFO] [1669192869.911194805] [bt_navigator_rclcpp_node]: "Wait" BtActionNode initialized
+[lifecycle_manager-13] [INFO] [1669192869.912762595] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-12] [INFO] [1669192869.913689300] [waypoint_follower]: Configuring
+[lifecycle_manager-13] [INFO] [1669192869.925931727] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-8] [INFO] [1669192869.926128430] [controller_server]: Activating
+[controller_server-8] [INFO] [1669192869.926158447] [local_costmap.local_costmap]: Activating
+[controller_server-8] [INFO] [1669192869.926168927] [local_costmap.local_costmap]: Checking transform
+[controller_server-8] [INFO] [1669192869.926195066] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[wanderer_server-14] [INFO] [1669192870.153978663] [wanderer_server]: Wanderer Server is ready
+[wanderer_server-14] [WARN] [1669192870.154139348] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[wanderer_server-14] [WARN] [1669192870.164647470] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[manager-17] [WARN] [1669192870.165853765] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[manager-17] [INFO] [1669192870.193139726] [manager]: Waiting for action server...
+[discoverer_server-15] [WARN] [1669192870.293218226] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192870.302860328] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[watchtower-16] [INFO] [1669192870.307849939] [watchtower]: Map selected = map1
+[discoverer_server-15] [INFO] [1669192870.339275219] [discoverer_server]: Grid of waypoints has been generated.
+[rviz2-7] [INFO] [1669192870.372034545] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1669192870.372209717] [rviz2]: OpenGl version: 4.1 (GLSL 4.1)
+[rviz2-7] [INFO] [1669192870.400953037] [rviz2]: Stereo is NOT SUPPORTED
+[controller_server-8] [INFO] [1669192870.426240212] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[manager-17] [INFO] [1669192870.444677953] [manager]: Sending discoverer goal request...
+[manager-17] [INFO] [1669192870.445068904] [manager]: Discovering until 97% map completed
+[gzserver-1] [1;33mWarning [parser.cc:833][0m XML Attribute[version] in element[sdf] not defined in SDF, ignoring.
+[rviz2-7] Parsing robot urdf xml string.
+[gzserver-1] [INFO] [1669192870.694960914] [turtlebot3_imu]: <initial_orientation_as_reference> is unset, using default value of false to comply with REP 145 (world as orientation reference)
+[occupancy_grid_node-6] [WARN] [1669192870.704763640] [occupancy_grid_node]: submap_slices and last_frame_id is empty
+[gzserver-1] [INFO] [1669192870.735425645] [turtlebot3_diff_drive]: Wheel pair 1 separation set to [0.160000m]
+[gzserver-1] [INFO] [1669192870.735587972] [turtlebot3_diff_drive]: Wheel pair 1 diameter set to [0.066000m]
+[gzserver-1] [INFO] [1669192870.737510604] [turtlebot3_diff_drive]: Subscribed to [/cmd_vel]
+[gzserver-1] [INFO] [1669192870.738661354] [turtlebot3_diff_drive]: Advertise odometry on [/odom]
+[gzserver-1] [INFO] [1669192870.739967107] [turtlebot3_diff_drive]: Publishing odom transforms between [odom] and [base_footprint]
+[gzserver-1] [INFO] [1669192870.754294042] [turtlebot3_joint_state]: Going to publish joint [wheel_left_joint]
+[gzserver-1] [INFO] [1669192870.754457502] [turtlebot3_joint_state]: Going to publish joint [wheel_right_joint]
+[controller_server-8] [INFO] [1669192870.926403410] [local_costmap.local_costmap]: start
+[lifecycle_manager-13] [INFO] [1669192870.928808836] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-9] [INFO] [1669192870.929076984] [planner_server]: Activating
+[planner_server-9] [INFO] [1669192870.929111569] [global_costmap.global_costmap]: Activating
+[planner_server-9] [INFO] [1669192870.929123271] [global_costmap.global_costmap]: Checking transform
+[planner_server-9] [INFO] [1669192870.929151595] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[cartographer_node-5] [INFO] [1669192870.965585852] [cartographer_ros]: I1123 16:41:10.000000 176629 ordered_multi_queue.cc:172] All sensor data for trajectory 0 is available starting at '621355968002000000'.
+[cartographer_node-5] [INFO] [1669192870.968794129] [cartographer_ros]: I1123 16:41:10.000000 176629 local_trajectory_builder_2d.cc:295] Extrapolator not yet initialized.
+[cartographer_node-5] [WARN] [1669192870.971591116] [cartographer_ros]: W1123 16:41:10.000000 176629 pose_extrapolator.cc:168] Queue too short for velocity estimation. Queue duration: 0 ms
+[manager-17] [INFO] [1669192871.182072769] [manager]: Duration: 1.00014583 s - Map: 0.01 - Distance: 0.00 m 
+[planner_server-9] [INFO] [1669192871.429363709] [global_costmap.global_costmap]: start
+[planner_server-9] [WARN] [1669192871.429506259] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-9] [INFO] [1669192871.431152417] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[lifecycle_manager-13] [INFO] [1669192871.432442881] [lifecycle_manager_navigation]: [34m[1mActivating recoveries_server[0m[0m
+[recoveries_server-10] [INFO] [1669192871.432709105] [recoveries_server]: Activating
+[recoveries_server-10] [INFO] [1669192871.432755082] [recoveries_server]: Activating spin
+[recoveries_server-10] [INFO] [1669192871.432767866] [recoveries_server]: Activating backup
+[recoveries_server-10] [INFO] [1669192871.432778176] [recoveries_server]: Activating wait
+[lifecycle_manager-13] [INFO] [1669192871.433311456] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-11] [INFO] [1669192871.433697958] [bt_navigator]: Activating
+[lifecycle_manager-13] [INFO] [1669192871.434197574] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-12] [INFO] [1669192871.434462817] [waypoint_follower]: Activating
+[lifecycle_manager-13] [INFO] [1669192871.434988402] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[planner_server-9] [INFO] [1669192871.705486917] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 70 X 72 at 0.050000 m/pix
+[rviz2-7] [INFO] [1669192871.722830496] [rviz2]: Trying to create a map of size 70 x 72 using 1 swatches
+[rviz2-7] [ERROR] [1669192871.730449186] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-7] active samplers with a different type refer to the same texture image unit
+[discoverer_server-15] [INFO] [1669192871.730840467] [discoverer_server]: Accessible waypoints have been updated...
+[manager-17] [INFO] [1669192872.182129247] [manager]: Duration: 2.000176479 s - Map: 0.00 - Distance: 0.01 m 
+[gzclient   -2] context mismatch in svga_surface_destroy
+[gzclient   -2] context mismatch in svga_surface_destroy
+[discoverer_server-15] [INFO] [1669192872.747075258] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192872.747731401] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192872.749144627] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192872.776629173] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192872.776975338] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192873.182115045] [manager]: Duration: 3.000181754 s - Map: 0.00 - Distance: 0.02 m 
+[ros2-3] Set parameter successful
+[INFO] [ros2-3]: process has finished cleanly [pid 176625]
+[manager-17] [INFO] [1669192874.182234381] [manager]: Duration: 4.000259231 s - Map: 0.00 - Distance: 0.02 m 
+[manager-17] [INFO] [1669192875.182115793] [manager]: Duration: 5.000166572 s - Map: 0.00 - Distance: 0.02 m 
+[manager-17] [INFO] [1669192876.182150859] [manager]: Duration: 6.000189715 s - Map: 0.00 - Distance: 0.02 m 
+[discoverer_server-15] [INFO] [1669192876.685747725] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192876.686108859] [discoverer_server]: reactive: Set first planning time: 3.909
+[discoverer_server-15] [INFO] [1669192876.715835590] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192876.716159403] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192876.716458750] [discoverer_server]: reactive: blocked region (9, 1)
+[discoverer_server-15] [WARN] [1669192876.716828250] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192876.729982833] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192876.745724187] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192877.182104317] [manager]: Duration: 7.000138765 s - Map: 0.00 - Distance: 0.02 m 
+[discoverer_server-15] [INFO] [1669192877.733757239] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:41:17,738 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:41:17,738 - asyncio - INFO - reactive: Mini search used 0.00003262 s
+[discoverer_server-15] 2022-11-23 16:41:17,739 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:41:17,739 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:41:17,739 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192877.739527598] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192878.182097775] [manager]: Duration: 8.000143855 s - Map: 0.00 - Distance: 0.02 m 
+[discoverer_server-15] [INFO] [1669192878.591119090] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192878.591399902] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192878.592169058] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192878.620490817] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192878.620822255] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192879.182110285] [manager]: Duration: 9.00020682 s - Map: 0.00 - Distance: 0.02 m 
+[manager-17] [INFO] [1669192880.182045844] [manager]: Duration: 10.000123764 s - Map: 0.00 - Distance: 0.02 m 
+[manager-17] [INFO] [1669192881.182072511] [manager]: Duration: 11.000130062 s - Map: 0.00 - Distance: 0.02 m 
+[discoverer_server-15] [INFO] [1669192882.067029109] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192882.067501674] [discoverer_server]: reactive: Set first planning time: 3.446
+[discoverer_server-15] [INFO] [1669192882.094975705] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192882.095356566] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192882.095637499] [discoverer_server]: reactive: blocked region (9, 4)
+[discoverer_server-15] [WARN] [1669192882.095900427] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192882.110594365] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192882.124041160] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192882.182252323] [manager]: Duration: 12.000208743 s - Map: 0.00 - Distance: 0.02 m 
+[discoverer_server-15] [INFO] [1669192882.734064136] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:41:22,736 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:41:22,736 - asyncio - INFO - reactive: task success.
+[discoverer_server-15] 2022-11-23 16:41:22,736 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:41:22,736 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:41:22,736 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192882.737296507] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192883.182292446] [manager]: Duration: 13.000208941 s - Map: 0.00 - Distance: 0.02 m 
+[discoverer_server-15] [INFO] [1669192883.602269379] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192883.602628028] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192883.603506913] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192883.631955529] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192883.632263382] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192884.182119520] [manager]: Duration: 14.000140763 s - Map: 0.00 - Distance: 0.02 m 
+[cartographer_node-5] [INFO] [1669192884.796512153] [cartographer_ros]: I1123 16:41:24.000000 176629 collated_trajectory_builder.cc:72] odom rate: 29.41 Hz 3.40e-02 s +/- 2.08e-16 s (pulsed at 98.60% real time)
+[cartographer_node-5] [INFO] [1669192884.796562258] [cartographer_ros]: I1123 16:41:24.000000 176629 collated_trajectory_builder.cc:72] scan rate: 5.00 Hz 2.00e-01 s +/- 2.52e-16 s (pulsed at 99.78% real time)
+[manager-17] [INFO] [1669192885.182088450] [manager]: Duration: 15.00016101 s - Map: 0.00 - Distance: 0.02 m 
+[manager-17] [INFO] [1669192886.182078855] [manager]: Duration: 16.000141456 s - Map: 0.00 - Distance: 0.02 m 
+[discoverer_server-15] [INFO] [1669192887.081909055] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192887.082225635] [discoverer_server]: reactive: Set first planning time: 3.450
+[discoverer_server-15] [INFO] [1669192887.109095119] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192887.109361644] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192887.109685276] [discoverer_server]: reactive: blocked region (9, 6)
+[discoverer_server-15] [WARN] [1669192887.109954336] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192887.124488280] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192887.138204546] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192887.181964436] [manager]: Duration: 17.000103412 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192887.735277062] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:41:27,737 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:41:27,737 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:41:27,737 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:41:27,737 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192887.738224143] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192888.182011370] [manager]: Duration: 18.000130188 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192888.574549530] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192888.574902348] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192888.575701632] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192888.603037760] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192888.603294315] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192889.182306694] [manager]: Duration: 19.000275096 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192890.182104212] [manager]: Duration: 20.000165511 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192891.182178305] [manager]: Duration: 21.00021656 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192892.054240345] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192892.054656944] [discoverer_server]: reactive: Set first planning time: 3.451
+[discoverer_server-15] [INFO] [1669192892.082210162] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192892.082589009] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192892.082989948] [discoverer_server]: reactive: blocked region (8, 1)
+[discoverer_server-15] [WARN] [1669192892.083303763] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192892.096907594] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192892.110371931] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192892.182113267] [manager]: Duration: 22.000190156 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192892.731318837] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:41:32,733 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:41:32,733 - asyncio - INFO - reactive: Mini search used 0.00003309 s
+[discoverer_server-15] 2022-11-23 16:41:32,733 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:41:32,733 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:41:32,733 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192892.734088643] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192893.182051656] [manager]: Duration: 23.000129005 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192893.609428199] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192893.609925931] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192893.610955631] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192893.637262758] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192893.637576432] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192894.182113410] [manager]: Duration: 24.000173336 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192895.182231699] [manager]: Duration: 25.000270205 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192896.182036630] [manager]: Duration: 26.000115883 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192897.029100290] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192897.029429213] [discoverer_server]: reactive: Set first planning time: 3.392
+[discoverer_server-15] [INFO] [1669192897.059664197] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192897.060023087] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192897.060347361] [discoverer_server]: reactive: blocked region (8, 2)
+[discoverer_server-15] [WARN] [1669192897.060717311] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192897.074902472] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192897.089454659] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192897.182140761] [manager]: Duration: 27.000191891 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192897.731445788] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:41:37,733 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:41:37,733 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:41:37,734 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:41:37,734 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192897.734277550] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192898.182094423] [manager]: Duration: 28.000156033 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192898.579538978] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192898.579858894] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192898.580982912] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192898.609267803] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192898.609511074] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192899.182135750] [manager]: Duration: 29.000196437 s - Map: 0.00 - Distance: 0.03 m 
+[cartographer_node-5] [INFO] [1669192899.829354869] [cartographer_ros]: I1123 16:41:39.000000 176629 collated_trajectory_builder.cc:72] odom rate: 29.41 Hz 3.40e-02 s +/- 2.43e-16 s (pulsed at 99.94% real time)
+[cartographer_node-5] [INFO] [1669192899.829411827] [cartographer_ros]: I1123 16:41:39.000000 176629 collated_trajectory_builder.cc:72] scan rate: 5.00 Hz 2.00e-01 s +/- 2.79e-16 s (pulsed at 99.62% real time)
+[manager-17] [INFO] [1669192900.182130811] [manager]: Duration: 30.000193983 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192901.182313680] [manager]: Duration: 31.000215157 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192902.057681577] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192902.058054293] [discoverer_server]: reactive: Set first planning time: 3.448
+[discoverer_server-15] [INFO] [1669192902.088332708] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192902.088659757] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192902.088905683] [discoverer_server]: reactive: blocked region (8, 5)
+[discoverer_server-15] [WARN] [1669192902.089152510] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192902.103280763] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192902.122698240] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192902.182047652] [manager]: Duration: 32.000133567 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192902.730159990] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:41:42,732 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:41:42,732 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:41:42,732 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:41:42,732 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192902.732903455] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192903.182213722] [manager]: Duration: 33.000185101 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192903.569546510] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192903.569941268] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192903.570852002] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192903.599301281] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192903.599598855] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192904.182262739] [manager]: Duration: 34.000287559 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192905.182114675] [manager]: Duration: 35.000134174 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192906.182249970] [manager]: Duration: 36.000150334 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192906.953409051] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192906.953893337] [discoverer_server]: reactive: Set first planning time: 3.354
+[discoverer_server-15] [INFO] [1669192906.981427133] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192906.981752348] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192906.982062656] [discoverer_server]: reactive: blocked region (7, 1)
+[discoverer_server-15] [WARN] [1669192906.982363265] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192906.997479698] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192907.010876976] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192907.182114618] [manager]: Duration: 37.000129569 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192907.732204224] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:41:47,734 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:41:47,734 - asyncio - INFO - reactive: Mini search used 0.00006038 s
+[discoverer_server-15] 2022-11-23 16:41:47,735 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:41:47,735 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:41:47,735 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192907.735534740] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192908.182038063] [manager]: Duration: 38.000113068 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192908.590593972] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192908.590976757] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192908.591775369] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192908.617469721] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192908.617842076] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192909.182230267] [manager]: Duration: 39.000202337 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192910.182244745] [manager]: Duration: 40.000223488 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192911.182080764] [manager]: Duration: 41.000145219 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192912.064514329] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192912.064843132] [discoverer_server]: reactive: Set first planning time: 3.447
+[discoverer_server-15] [INFO] [1669192912.093655605] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192912.093943471] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192912.094201038] [discoverer_server]: reactive: blocked region (7, 2)
+[discoverer_server-15] [WARN] [1669192912.094492700] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192912.110997651] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192912.124441195] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192912.182078296] [manager]: Duration: 42.000147089 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192912.730797177] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:41:52,733 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:41:52,733 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:41:52,733 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:41:52,733 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192912.734232181] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192913.182064976] [manager]: Duration: 43.000134581 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192913.588764471] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192913.589073085] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192913.589908136] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192913.614842708] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192913.615309201] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192914.182233281] [manager]: Duration: 44.000294389 s - Map: 0.00 - Distance: 0.03 m 
+[cartographer_node-5] [INFO] [1669192914.866915518] [cartographer_ros]: I1123 16:41:54.000000 176629 collated_trajectory_builder.cc:72] odom rate: 29.41 Hz 3.40e-02 s +/- 2.43e-16 s (pulsed at 99.91% real time)
+[cartographer_node-5] [INFO] [1669192914.866992484] [cartographer_ros]: I1123 16:41:54.000000 176629 collated_trajectory_builder.cc:72] scan rate: 5.00 Hz 2.00e-01 s +/- 2.79e-16 s (pulsed at 99.58% real time)
+[manager-17] [INFO] [1669192915.182118836] [manager]: Duration: 45.000184383 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192916.182049720] [manager]: Duration: 46.000124214 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192916.992145377] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192916.992550193] [discoverer_server]: reactive: Set first planning time: 3.377
+[discoverer_server-15] [INFO] [1669192917.021166794] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192917.021486490] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192917.021750249] [discoverer_server]: reactive: blocked region (7, 3)
+[discoverer_server-15] [WARN] [1669192917.022025400] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192917.039814331] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192917.053321715] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192917.182041715] [manager]: Duration: 47.000117942 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192917.731204228] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:41:57,733 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:41:57,733 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:41:57,733 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:41:57,733 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192917.733950809] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192918.182002671] [manager]: Duration: 48.000077757 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192918.588285649] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192918.588612478] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192918.589404568] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192918.615976487] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192918.616310279] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192919.182136542] [manager]: Duration: 49.000188403 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192920.182002690] [manager]: Duration: 50.000119515 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192921.182022388] [manager]: Duration: 51.000108073 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192922.021920866] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192922.022402909] [discoverer_server]: reactive: Set first planning time: 3.406
+[discoverer_server-15] [INFO] [1669192922.051234685] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192922.051559229] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192922.051830242] [discoverer_server]: reactive: blocked region (6, 6)
+[discoverer_server-15] [WARN] [1669192922.052121504] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192922.069968513] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192922.083705101] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192922.182160734] [manager]: Duration: 52.000211473 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192922.731784814] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:42:02,733 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:42:02,734 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:42:02,734 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:42:02,734 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192922.734320655] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192923.182042532] [manager]: Duration: 53.000135912 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192923.626385249] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192923.626670279] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192923.627329357] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192923.656971838] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192923.657288668] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192924.182420006] [manager]: Duration: 54.000334487 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192925.182159828] [manager]: Duration: 55.000205728 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192926.182251093] [manager]: Duration: 56.000173499 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192927.182116625] [manager]: Duration: 57.000184527 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192927.289192753] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192927.289556702] [discoverer_server]: reactive: Set first planning time: 3.632
+[discoverer_server-15] [INFO] [1669192927.316782336] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192927.317100688] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192927.317387571] [discoverer_server]: reactive: blocked region (5, 4)
+[discoverer_server-15] [WARN] [1669192927.317678632] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192927.333311920] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192927.349709343] [discoverer_server]: Grid of waypoints has been generated.
+[discoverer_server-15] [INFO] [1669192927.731039380] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:42:07,867 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:42:07,868 - asyncio - INFO - reactive: Mini search used 0.00004768 s
+[discoverer_server-15] 2022-11-23 16:42:07,868 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:42:07,868 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:42:07,868 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192927.868702816] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192928.182056437] [manager]: Duration: 58.000170265 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192928.681023176] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192928.681323966] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192928.682123520] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192928.710453434] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192928.710853311] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192929.182092175] [manager]: Duration: 59.000150078 s - Map: 0.00 - Distance: 0.03 m 
+[cartographer_node-5] [INFO] [1669192929.894528786] [cartographer_ros]: I1123 16:42:09.000000 176629 collated_trajectory_builder.cc:72] odom rate: 29.41 Hz 3.40e-02 s +/- 2.43e-16 s (pulsed at 99.75% real time)
+[cartographer_node-5] [INFO] [1669192929.894622483] [cartographer_ros]: I1123 16:42:09.000000 176629 collated_trajectory_builder.cc:72] scan rate: 5.00 Hz 2.00e-01 s +/- 2.79e-16 s (pulsed at 99.88% real time)
+[manager-17] [INFO] [1669192930.182134462] [manager]: Duration: 60.000198156 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192931.182062290] [manager]: Duration: 61.000137936 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192932.182038466] [manager]: Duration: 62.000115956 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192932.246723084] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192932.247064450] [discoverer_server]: reactive: Set first planning time: 3.536
+[discoverer_server-15] [INFO] [1669192932.277879387] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192932.278114752] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192932.278337795] [discoverer_server]: reactive: blocked region (5, 6)
+[discoverer_server-15] [WARN] [1669192932.294532253] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192932.309299259] [discoverer_server]: Grid of waypoints has been generated.
+[discoverer_server-15] [INFO] [1669192932.734198994] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:42:12,736 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:42:12,736 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:42:12,736 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:42:12,736 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192932.737079918] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192933.182020270] [manager]: Duration: 63.00011891 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192933.589843671] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192933.590190338] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192933.591118194] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192933.619799832] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192933.620122553] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192934.182165269] [manager]: Duration: 64.000217251 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192935.182157306] [manager]: Duration: 65.000179551 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192936.182085628] [manager]: Duration: 66.000154502 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192937.021056363] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192937.021366100] [discoverer_server]: reactive: Set first planning time: 3.401
+[discoverer_server-15] [INFO] [1669192937.048116480] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192937.048365582] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192937.048613571] [discoverer_server]: reactive: blocked region (4, 2)
+[discoverer_server-15] [WARN] [1669192937.048844849] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192937.063352493] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192937.077769746] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192937.182234255] [manager]: Duration: 67.000191577 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192937.800575811] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:42:17,802 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:42:17,802 - asyncio - INFO - reactive: Mini search used 0.00004451 s
+[discoverer_server-15] 2022-11-23 16:42:17,802 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:42:17,802 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:42:17,802 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192937.803165864] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192938.182052262] [manager]: Duration: 68.000121867 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192938.653418637] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192938.653709758] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192938.654517197] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192938.682814295] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192938.683090357] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192939.182105491] [manager]: Duration: 69.000153104 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192940.182164207] [manager]: Duration: 70.000221398 s - Map: 0.00 - Distance: 0.03 m 
+[manager-17] [INFO] [1669192941.182056104] [manager]: Duration: 71.000128424 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192942.134835564] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192942.135151903] [discoverer_server]: reactive: Set first planning time: 3.452
+[discoverer_server-15] [INFO] [1669192942.163987800] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192942.164295212] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192942.164615819] [discoverer_server]: reactive: blocked region (4, 3)
+[discoverer_server-15] [WARN] [1669192942.180868375] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[manager-17] [INFO] [1669192942.182066022] [manager]: Duration: 72.000170423 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192942.193011102] [discoverer_server]: Grid of waypoints has been generated.
+[discoverer_server-15] [INFO] [1669192942.730831279] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:42:22,732 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:42:22,733 - asyncio - INFO - reactive: Mini search used 0.00003376 s
+[discoverer_server-15] 2022-11-23 16:42:22,733 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:42:22,733 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:42:22,733 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192942.733722172] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192943.182108067] [manager]: Duration: 73.000158455 s - Map: 0.00 - Distance: 0.03 m 
+[discoverer_server-15] [INFO] [1669192943.580996782] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192943.581399133] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192943.582390720] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192943.610311574] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192943.610583138] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192944.182102119] [manager]: Duration: 74.00014344 s - Map: 0.00 - Distance: 0.04 m 
+[cartographer_node-5] [INFO] [1669192944.916931448] [cartographer_ros]: I1123 16:42:24.000000 176629 collated_trajectory_builder.cc:72] odom rate: 29.41 Hz 3.40e-02 s +/- 2.43e-16 s (pulsed at 99.78% real time)
+[cartographer_node-5] [INFO] [1669192944.917558946] [cartographer_ros]: I1123 16:42:24.000000 176629 collated_trajectory_builder.cc:72] scan rate: 5.00 Hz 2.00e-01 s +/- 1.66e-04 s (pulsed at 99.92% real time)
+[manager-17] [INFO] [1669192945.182086369] [manager]: Duration: 75.000152227 s - Map: 0.00 - Distance: 0.04 m 
+[manager-17] [INFO] [1669192946.182116764] [manager]: Duration: 76.000189535 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192947.103852748] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192947.104221276] [discoverer_server]: reactive: Set first planning time: 3.493
+[discoverer_server-15] [INFO] [1669192947.130823002] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192947.131321325] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192947.131762460] [discoverer_server]: reactive: blocked region (4, 5)
+[discoverer_server-15] [WARN] [1669192947.132111070] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192947.148146143] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192947.165651780] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192947.182124042] [manager]: Duration: 77.000210649 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192947.730123693] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:42:27,732 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:42:27,732 - asyncio - INFO - reactive: task success.
+[discoverer_server-15] 2022-11-23 16:42:27,732 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:42:27,732 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:42:27,732 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192947.732996321] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192948.182051976] [manager]: Duration: 78.00016354 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192948.582196551] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192948.582485358] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192948.583272578] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192948.611092560] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192948.611608707] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192949.182347613] [manager]: Duration: 79.000459829 s - Map: 0.00 - Distance: 0.04 m 
+[manager-17] [INFO] [1669192950.182224966] [manager]: Duration: 80.000274663 s - Map: 0.00 - Distance: 0.04 m 
+[manager-17] [INFO] [1669192951.182157902] [manager]: Duration: 81.000205776 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192952.054297006] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192952.054620929] [discoverer_server]: reactive: Set first planning time: 3.443
+[discoverer_server-15] [INFO] [1669192952.082916479] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192952.083290838] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192952.083581408] [discoverer_server]: reactive: blocked region (3, 4)
+[discoverer_server-15] [WARN] [1669192952.083866377] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192952.099345367] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192952.111923796] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192952.182086967] [manager]: Duration: 82.000152003 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192952.732268393] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:42:32,734 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:42:32,734 - asyncio - INFO - reactive: task success.
+[discoverer_server-15] 2022-11-23 16:42:32,734 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:42:32,734 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:42:32,734 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192952.734921535] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192953.182055323] [manager]: Duration: 83.000140868 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192953.560339263] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192953.560750962] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192953.561871594] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192953.590932442] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192953.591260463] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192954.182382175] [manager]: Duration: 84.000419048 s - Map: 0.00 - Distance: 0.04 m 
+[manager-17] [INFO] [1669192955.182185574] [manager]: Duration: 85.000148797 s - Map: 0.00 - Distance: 0.04 m 
+[manager-17] [INFO] [1669192956.182178810] [manager]: Duration: 86.000192389 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192957.042102316] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192957.042609977] [discoverer_server]: reactive: Set first planning time: 3.451
+[discoverer_server-15] [INFO] [1669192957.069917465] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192957.070237341] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192957.070556965] [discoverer_server]: reactive: blocked region (3, 6)
+[discoverer_server-15] [WARN] [1669192957.070927016] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192957.084583345] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192957.096565204] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192957.182244729] [manager]: Duration: 87.000222661 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192957.733560669] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:42:37,735 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:42:37,736 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:42:37,736 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:42:37,736 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192957.736342755] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192958.182089077] [manager]: Duration: 88.000172148 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192958.553710663] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192958.554025870] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192958.554796358] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192958.584141533] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192958.584441240] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192959.182539821] [manager]: Duration: 89.000513885 s - Map: 0.00 - Distance: 0.04 m 
+[cartographer_node-5] [INFO] [1669192959.937348465] [cartographer_ros]: I1123 16:42:39.000000 176629 collated_trajectory_builder.cc:72] odom rate: 29.41 Hz 3.40e-02 s +/- 2.43e-16 s (pulsed at 99.80% real time)
+[cartographer_node-5] [INFO] [1669192959.937456780] [cartographer_ros]: I1123 16:42:39.000000 176629 collated_trajectory_builder.cc:72] scan rate: 5.00 Hz 2.00e-01 s +/- 1.16e-04 s (pulsed at 99.95% real time)
+[manager-17] [INFO] [1669192960.182067254] [manager]: Duration: 90.000145856 s - Map: 0.00 - Distance: 0.04 m 
+[manager-17] [INFO] [1669192961.182151479] [manager]: Duration: 91.000161831 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192962.106296177] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192962.106656879] [discoverer_server]: reactive: Set first planning time: 3.522
+[discoverer_server-15] [INFO] [1669192962.133898300] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192962.134179693] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192962.134392075] [discoverer_server]: reactive: blocked region (2, 1)
+[discoverer_server-15] [WARN] [1669192962.134647128] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192962.149474482] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192962.162202513] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192962.182088873] [manager]: Duration: 92.000144301 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192962.728661350] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:42:42,730 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:42:42,731 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:42:42,731 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:42:42,731 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192962.731634177] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192963.182084295] [manager]: Duration: 93.000162847 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192963.585938456] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192963.586303737] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192963.587265177] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192963.616006457] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192963.616290044] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192964.182683186] [manager]: Duration: 94.000760867 s - Map: 0.00 - Distance: 0.04 m 
+[manager-17] [INFO] [1669192965.182084298] [manager]: Duration: 95.00015225 s - Map: 0.00 - Distance: 0.04 m 
+[manager-17] [INFO] [1669192966.182125367] [manager]: Duration: 96.00018307 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192967.090410520] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192967.090754652] [discoverer_server]: reactive: Set first planning time: 3.474
+[discoverer_server-15] [INFO] [1669192967.119898832] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192967.120156751] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192967.120409729] [discoverer_server]: reactive: blocked region (2, 3)
+[discoverer_server-15] [WARN] [1669192967.120651387] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192967.136591506] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192967.149945311] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192967.182037772] [manager]: Duration: 97.000091928 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192967.730193030] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:42:47,732 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:42:47,732 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:42:47,732 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:42:47,732 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192967.732881688] [discoverer_server]: reactive: task success
+[manager-17] [INFO] [1669192968.182165231] [manager]: Duration: 98.000134686 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192968.592631301] [discoverer_server]: Execute command: /bin/python3 ~/devel_ws/src/mitl_tack/map_utils/map_utils/csvMap2TA.py -f /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv and /bin/python3 /home/devel_ws/src/ros2_explorer/explorer_gazebo/gazebo-map-from-csv-copy.py -f map1.csv
+[discoverer_server-15] [INFO] [1669192968.592948611] [discoverer_server]: Execute Output: Decompose single csv map at /home/devel_ws/src/ros2_explorer/explorer_gazebo/maps/map1.csv
+[discoverer_server-15] Generate sdf model for map1.csv
+[discoverer_server-15] [[1. 1. 1. 1. 1. 1. 1. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 0. 0. 0. 0. 0. 0. 1.]
+[discoverer_server-15]  [1. 1. 1. 1. 1. 1. 1. 1.]]
+[discoverer_server-15] lines = X = 10
+[discoverer_server-15] columns = Y = 8
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192968.593626103] [discoverer_server]: Execute command: echo 0 | sudo docker run --rm --privileged -v ~/devel_ws/src/mitl_tack/:/workspace/mitl_tack --name tack i/tack bash /workspace/onStart.sh -s -- -p x86_64 
+[discoverer_server-15] [INFO] [1669192968.621740114] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192968.622061522] [discoverer_server]: All Docker Planner Stopped
+[manager-17] [INFO] [1669192969.182115372] [manager]: Duration: 99.000194825 s - Map: 0.00 - Distance: 0.04 m 
+[manager-17] [INFO] [1669192970.182719107] [manager]: Duration: 100.000781428 s - Map: 0.00 - Distance: 0.04 m 
+[manager-17] [INFO] [1669192971.182205355] [manager]: Duration: 101.000268909 s - Map: 0.00 - Distance: 0.04 m 
+[cartographer_node-5] [INFO] [1669192971.195231579] [cartographer_ros]: I1123 16:42:51.000000 176629 motion_filter.cc:42] Motion filter reduced the number of nodes to 6.2%.
+[discoverer_server-15] [INFO] [1669192972.062273347] [discoverer_server]: Execute Output: start java jar tack
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] TACK  - Timed Automata ChecKer
+[discoverer_server-15] v. 0.0.1 - 18/06/2017
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] Loading the property: /workspace/mitl_tack/map_utils/outputs/map1.mitli
+[discoverer_server-15] Property loaded/workspace/mitl_tack/map_utils/outputs/map1.ta
+[discoverer_server-15] Loading the model
+[discoverer_server-15] Model loaded
+[discoverer_server-15] Semantic loaded
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the MITLI formula in CLTLoc
+[discoverer_server-15] MITLI formula converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Converting the TA in CLTLoc
+[discoverer_server-15] TA converted in CLTLoc
+[discoverer_server-15] ************************************************
+[discoverer_server-15] Creating the CLTLoc formulae of the model and the property
+[discoverer_server-15] Conjunction of the formulae created
+[discoverer_server-15] Running ZOT... This might take a while
+[discoverer_server-15] 
+[discoverer_server-15]  Back parsing the history
+[discoverer_server-15] 
+[discoverer_server-15] 
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] The property of interest is : not satisfied
+[discoverer_server-15] check the file counterexample.txt to see the violating trace
+[discoverer_server-15] the mapping between the elements of the model and the used id can be found in the file elementsIDmap.txt
+[discoverer_server-15] ------------------------------------------------------------------------------------------------------------------------------------------------------------
+[discoverer_server-15] 
+[discoverer_server-15] [INFO] [1669192972.062648797] [discoverer_server]: reactive: Set first planning time: 3.440
+[discoverer_server-15] [INFO] [1669192972.090515218] [discoverer_server]: CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+[discoverer_server-15] [INFO] [1669192972.090858197] [discoverer_server]: All Docker Planner Stopped
+[discoverer_server-15] [INFO] [1669192972.091165829] [discoverer_server]: reactive: blocked region (2, 5)
+[discoverer_server-15] [WARN] [1669192972.091469364] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [WARN] [1669192972.111440221] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[discoverer_server-15] [INFO] [1669192972.127206832] [discoverer_server]: Grid of waypoints has been generated.
+[manager-17] [INFO] [1669192972.181995827] [manager]: Duration: 102.00007528 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192972.730549775] [discoverer_server]: Accessible waypoints have been updated...
+[discoverer_server-15] 2022-11-23 16:42:52,732 - behavior_tree.py - INFO - Behavior Tree Control Init Finished.
+[discoverer_server-15] 2022-11-23 16:42:52,732 - asyncio - INFO - {-} Sequence(root)
+[discoverer_server-15]     --> ActNode(move to start)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_0)
+[discoverer_server-15]         --> ActNode(decomp_region_8)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_8)
+[discoverer_server-15]         --> ActNode(decomp_region_7)
+[discoverer_server-15]     [-] Sequence
+[discoverer_server-15]         --> CondNode(decomp_region_7)
+[discoverer_server-15]         --> ActNode(decomp_region_5)
+[discoverer_server-15] 
+[discoverer_server-15] 2022-11-23 16:42:52,732 - asyncio - INFO - Behavior Tree Successfully Generated.
+[discoverer_server-15] 2022-11-23 16:42:52,732 - asyncio - INFO - New BT setted.
+[discoverer_server-15] [INFO] [1669192972.733125029] [discoverer_server]: reactive: task success
+[discoverer_server-15] [INFO] [1669192972.733328053] [discoverer_server]: Discoverer Server is ready
+[discoverer_server-15] [INFO] [1669192972.734574542] [discoverer_server]: Discoverer Server received a goal
+[manager-17] [INFO] [1669192972.734742330] [manager]: Exploration goal accepted
+[discoverer_server-15] [INFO] [1669192972.734831609] [discoverer_server]: Map completed threshold set to: 1.0
+[manager-17] [INFO] [1669192973.182116310] [manager]: Duration: 103.000131452 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192973.711057082] [discoverer_server]: Behavior Tree execute failed with error code 1
+[manager-17] [INFO] [1669192974.182092889] [manager]: Duration: 104.000113081 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192974.711940771] [discoverer_server]: Behavior Tree execute failed with error code 1
+[cartographer_node-5] [INFO] [1669192974.965806268] [cartographer_ros]: I1123 16:42:54.000000 176629 collated_trajectory_builder.cc:72] odom rate: 29.41 Hz 3.40e-02 s +/- 2.43e-16 s (pulsed at 99.74% real time)
+[cartographer_node-5] [INFO] [1669192974.965859989] [cartographer_ros]: I1123 16:42:54.000000 176629 collated_trajectory_builder.cc:72] scan rate: 5.00 Hz 2.00e-01 s +/- 1.66e-04 s (pulsed at 99.88% real time)
+[manager-17] [INFO] [1669192975.182208528] [manager]: Duration: 105.000162855 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192975.713403764] [discoverer_server]: Behavior Tree execute failed with error code 1
+[manager-17] [INFO] [1669192976.182238474] [manager]: Duration: 106.0002293 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192976.715049180] [discoverer_server]: Behavior Tree execute failed with error code 1
+[manager-17] [INFO] [1669192977.182118263] [manager]: Duration: 107.000176977 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192977.716011752] [discoverer_server]: Behavior Tree execute failed with error code 1
+[manager-17] [INFO] [1669192978.182110162] [manager]: Duration: 108.000176561 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192978.717028614] [discoverer_server]: Behavior Tree execute failed with error code 1
+[manager-17] [INFO] [1669192979.182183713] [manager]: Duration: 109.000176122 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192979.719023615] [discoverer_server]: Behavior Tree execute failed with error code 1
+[manager-17] [INFO] [1669192980.182077060] [manager]: Duration: 110.000118642 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192980.716008522] [discoverer_server]: Behavior Tree execute failed with error code 1
+[manager-17] [INFO] [1669192981.182160737] [manager]: Duration: 111.000163565 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192981.720447314] [discoverer_server]: Behavior Tree execute failed with error code 1
+[manager-17] [INFO] [1669192982.182042469] [manager]: Duration: 112.00012593 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192982.721340984] [discoverer_server]: Behavior Tree execute failed with error code 1
+[manager-17] [INFO] [1669192983.182052491] [manager]: Duration: 113.000135973 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192983.722694182] [discoverer_server]: Behavior Tree execute failed with error code 1
+[manager-17] [INFO] [1669192984.182166749] [manager]: Duration: 114.000132858 s - Map: 0.00 - Distance: 0.04 m 
+[discoverer_server-15] [INFO] [1669192984.724725812] [discoverer_server]: Behavior Tree execute failed with error code 1
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[occupancy_grid_node-6] [INFO] [1669192985.141437029] [rclcpp]: signal_handler(signal_value=2)
+[lifecycle_manager-13] [INFO] [1669192985.141369641] [rclcpp]: signal_handler(signal_value=2)
+[bt_navigator-11] [INFO] [1669192985.141387956] [rclcpp]: signal_handler(signal_value=2)
+[waypoint_follower-12] [INFO] [1669192985.141388958] [rclcpp]: signal_handler(signal_value=2)
+[controller_server-8] [INFO] [1669192985.141398376] [rclcpp]: signal_handler(signal_value=2)
+[INFO] [recoveries_server-10]: process has finished cleanly [pid 176639]
+[rviz2-7] [INFO] [1669192985.141422010] [rclcpp]: signal_handler(signal_value=2)
+[INFO] [controller_server-8]: process has finished cleanly [pid 176635]
+[recoveries_server-10] [INFO] [1669192985.141449081] [rclcpp]: signal_handler(signal_value=2)
+[planner_server-9] [INFO] [1669192985.141472907] [rclcpp]: signal_handler(signal_value=2)
+[robot_state_publisher-4] [INFO] [1669192985.142051021] [rclcpp]: signal_handler(signal_value=2)
+[wanderer_server-14] Traceback (most recent call last):
+[wanderer_server-14]   File "/home/devel_ws/install/explorer_wanderer/lib/explorer_wanderer/wanderer_server", line 11, in <module>
+[wanderer_server-14]     load_entry_point('explorer-wanderer==0.0.0', 'console_scripts', 'wanderer_server')()
+[wanderer_server-14]   File "/home/devel_ws/install/explorer_wanderer/lib/python3.8/site-packages/explorer_wanderer/wanderer_server.py", line 190, in main
+[wanderer_server-14]     rclpy.spin(wanderer_server)
+[wanderer_server-14]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/__init__.py", line 191, in spin
+[wanderer_server-14]     executor.spin_once()
+[wanderer_server-14]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/executors.py", line 706, in spin_once
+[wanderer_server-14]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[wanderer_server-14]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/executors.py", line 692, in wait_for_ready_callbacks
+[wanderer_server-14]     return next(self._cb_iter)
+[wanderer_server-14]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/executors.py", line 589, in _wait_for_ready_callbacks
+[wanderer_server-14]     _rclpy.rclpy_wait(wait_set, timeout_nsec)
+[wanderer_server-14] KeyboardInterrupt
+[discoverer_server-15] [INFO] [1669192985.142311063] [discoverer_server]: Job Finished
+[discoverer_server-15] [WARN] [1669192985.144738326] [discoverer_server]: Goal state not set, assuming aborted. Goal ID: [ 97  89 171  60 255  35  66 103 169 163 249 219 255 146 140  16]
+[manager-17] Traceback (most recent call last):
+[manager-17]   File "/home/devel_ws/install/explorer_bringup/lib/explorer_bringup/manager", line 11, in <module>
+[manager-17]     load_entry_point('explorer-bringup==0.0.0', 'console_scripts', 'manager')()
+[manager-17]   File "/home/devel_ws/install/explorer_bringup/lib/python3.8/site-packages/explorer_bringup/manager.py", line 215, in main
+[manager-17]     rclpy.spin(manager)
+[manager-17]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/__init__.py", line 191, in spin
+[manager-17]     executor.spin_once()
+[manager-17]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/executors.py", line 706, in spin_once
+[manager-17]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[manager-17]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/executors.py", line 692, in wait_for_ready_callbacks
+[manager-17]     return next(self._cb_iter)
+[manager-17]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/executors.py", line 589, in _wait_for_ready_callbacks
+[manager-17]     _rclpy.rclpy_wait(wait_set, timeout_nsec)
+[manager-17] KeyboardInterrupt
+[watchtower-16] Traceback (most recent call last):
+[watchtower-16]   File "/home/devel_ws/install/explorer_map_utils/lib/explorer_map_utils/watchtower", line 11, in <module>
+[watchtower-16]     load_entry_point('explorer-map-utils==0.0.0', 'console_scripts', 'watchtower')()
+[watchtower-16]   File "/home/devel_ws/install/explorer_map_utils/lib/python3.8/site-packages/explorer_map_utils/watchtower.py", line 105, in main
+[watchtower-16]     rclpy.spin(watchtower)
+[watchtower-16]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/__init__.py", line 191, in spin
+[watchtower-16]     executor.spin_once()
+[watchtower-16]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/executors.py", line 706, in spin_once
+[watchtower-16]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[watchtower-16]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/executors.py", line 692, in wait_for_ready_callbacks
+[watchtower-16]     return next(self._cb_iter)
+[watchtower-16]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/executors.py", line 589, in _wait_for_ready_callbacks
+[watchtower-16]     _rclpy.rclpy_wait(wait_set, timeout_nsec)
+[watchtower-16] KeyboardInterrupt
+[bt_navigator-11] [INFO] [1669192985.143507016] [bt_navigator]: Destroying
+[waypoint_follower-12] [INFO] [1669192985.144321478] [waypoint_follower]: Destroying
+[cartographer_node-5] [INFO] [1669192985.145114629] [rclcpp]: signal_handler(signal_value=2)
+[cartographer_node-5] [INFO] [1669192985.146714727] [cartographer_ros]: I1123 16:43:05.000000 176629 node.cc:545] Shutdown the subscriber of [scan]
+[cartographer_node-5] [INFO] [1669192985.146736228] [cartographer_ros]: I1123 16:43:05.000000 176629 node.cc:545] Shutdown the subscriber of [odom]
+[lifecycle_manager-13] [INFO] [1669192985.146372038] [lifecycle_manager_navigation]: Destroying
+[gzclient   -2] context mismatch in svga_surface_destroy
+[gzclient   -2] context mismatch in svga_surface_destroy
+[ERROR] [gzclient   -2]: process has died [pid 176621, exit code -2, cmd 'gzclient   '].
+[cartographer_node-5] [INFO] [1669192986.149633929] [cartographer_ros]: I1123 16:43:06.000000 176629 map_builder_bridge.cc:149] Finishing trajectory with ID '0'...
+[cartographer_node-5] [INFO] [1669192986.149762332] [cartographer_ros]: I1123 16:43:06.000000 176629 map_builder_bridge.cc:158] Running final trajectory optimization...
+[cartographer_node-5] [INFO] [1669192986.149868644] [cartographer_ros]: I1123 16:43:06.000000 176670 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
+[cartographer_node-5] [INFO] [1669192986.149932935] [cartographer_ros]: I1123 16:43:06.000000 176670 constraint_builder_2d.cc:283] Score histogram:
+[cartographer_node-5] Count: 0
+[bt_navigator-11] [PublisherZMQ] Server quitting.
+[bt_navigator-11] [PublisherZMQ] just died. Exception Context was terminated
+[bt_navigator-11] [PublisherZMQ] Publisher quitting.
+[bt_navigator-11] [PublisherZMQ] just died. Exception Context was terminated
+[INFO] [robot_state_publisher-4]: process has finished cleanly [pid 176627]
+[INFO] [planner_server-9]: process has finished cleanly [pid 176637]
+[INFO] [occupancy_grid_node-6]: process has finished cleanly [pid 176631]
+[INFO] [waypoint_follower-12]: process has finished cleanly [pid 176643]
+[watchtower-16] Exception ignored in: <function Executor.__del__ at 0x7f74d445dc10>
+[watchtower-16] Traceback (most recent call last):
+[watchtower-16]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/executors.py", line 240, in __del__
+[watchtower-16]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/signals.py", line 39, in destroy
+[watchtower-16] AttributeError: 'NoneType' object has no attribute 'rclpy_unregister_sigint_guard_condition'
+[watchtower-16] Exception ignored in: <function SignalHandlerGuardCondition.__del__ at 0x7f74d43f0820>
+[watchtower-16] Traceback (most recent call last):
+[watchtower-16]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/signals.py", line 30, in __del__
+[watchtower-16] TypeError: catching classes that do not inherit from BaseException is not allowed
+[INFO] [lifecycle_manager-13]: process has finished cleanly [pid 176645]
+[INFO] [bt_navigator-11]: process has finished cleanly [pid 176641]
+[ERROR] [manager-17]: process has died [pid 176751, exit code -2, cmd '/home/devel_ws/install/explorer_bringup/lib/explorer_bringup/manager --ros-args -r __node:=manager'].
+[cartographer_node-5] [INFO] [1669192986.199017225] [cartographer_ros]: I1123 16:43:06.000000 176670 pose_graph_2d.cc:382] Remaining work items in queue: 1
+[cartographer_node-5] [INFO] [1669192986.199101314] [cartographer_ros]: I1123 16:43:06.000000 176673 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
+[cartographer_node-5] [INFO] [1669192986.199112024] [cartographer_ros]: I1123 16:43:06.000000 176673 constraint_builder_2d.cc:283] Score histogram:
+[cartographer_node-5] Count: 0
+[cartographer_node-5] 
+[KOptimizing: Done.     
+[cartographer_node-5] [INFO] [1669192986.205684463] [cartographer_ros]: I1123 16:43:06.000000 176672 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
+[cartographer_node-5] [INFO] [1669192986.205699531] [cartographer_ros]: I1123 16:43:06.000000 176672 constraint_builder_2d.cc:283] Score histogram:
+[cartographer_node-5] Count: 0
+[cartographer_node-5] 
+[KOptimizing: Done.     
+[cartographer_node-5] [INFO] [1669192986.208430018] [cartographer_ros]: I1123 16:43:06.000000 176669 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.
+[cartographer_node-5] [INFO] [1669192986.208442843] [cartographer_ros]: I1123 16:43:06.000000 176669 constraint_builder_2d.cc:283] Score histogram:
+[cartographer_node-5] Count: 0
+[ERROR] [watchtower-16]: process has died [pid 176665, exit code -2, cmd '/home/devel_ws/install/explorer_map_utils/lib/explorer_map_utils/watchtower --ros-args -r __node:=watchtower --params-file /tmp/launch_params_5o8cjawm'].
+[INFO] [rviz2-7]: process has finished cleanly [pid 176633]
+[INFO] [cartographer_node-5]: process has finished cleanly [pid 176629]
+[ERROR] [gzserver-1]: process has died [pid 176619, exit code -2, cmd 'gzserver /home/devel_ws/install/explorer_gazebo/share/explorer_gazebo/worlds/map1.world.xml                                                                      -s libgazebo_ros_init.so   -s libgazebo_ros_factory.so   -s libgazebo_ros_force_system.so       '].
+[ERROR] [wanderer_server-14]: process has died [pid 176647, exit code -11, cmd '/home/devel_ws/install/explorer_wanderer/lib/explorer_wanderer/wanderer_server --ros-args -r __node:=wanderer_server'].
+[ERROR] [discoverer_server-15]: process[discoverer_server-15] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [discoverer_server-15]: sending signal 'SIGTERM' to process[discoverer_server-15]
+[ERROR] [discoverer_server-15]: process has died [pid 176649, exit code -15, cmd '/home/devel_ws/install/explorer_wanderer/lib/explorer_wanderer/discoverer_server --ros-args -r __node:=discoverer_server'].
